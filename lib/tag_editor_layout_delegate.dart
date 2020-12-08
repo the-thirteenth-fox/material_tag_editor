@@ -5,7 +5,7 @@ import 'package:flutter/rendering.dart';
 class TagEditorLayoutDelegate extends MultiChildLayoutDelegate {
   TagEditorLayoutDelegate({
     @required this.length,
-    this.minTextWidth = 160,
+    this.minTextWidth = 90,
     this.spacing = 4.0,
   });
 
